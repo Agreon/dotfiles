@@ -1,0 +1,43 @@
+{
+    "window.zoomLevel": 1,
+    "window.commandCenter": true,
+    "window.titleBarStyle": "custom",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.semanticHighlighting.enabled": false,
+    "editor.rulers": [100],
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable.other.constant",
+                        "variable.other.enummember"
+                    ],
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                }
+            ]
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "search.useGlobalIgnoreFiles": true,
+    "explorer.incrementalNaming": "smart",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.language": "en,de",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+    "errorLens.delay": 3000,
+    "cSpell.userWords": [
+        "nestjs"
+    ]
+}
