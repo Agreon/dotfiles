@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-alias dc=docker-compose
+alias dc="docker compose"
 alias g="git status"
 alias gc="git commit"
 alias cat=bat
@@ -14,3 +14,5 @@ export EDITOR=vim
 set -gx PNPM_HOME "/home/daniel/.local/share/pnpm"
 set -gx PATH "$PNPM_HOME" $PATH
 # pnpm end
+
+set -gx PATH "$HOME/.cargo/bin" $PATH

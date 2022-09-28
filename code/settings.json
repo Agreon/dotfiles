@@ -6,8 +6,11 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
+    "editor.formatOnSave": true,
     "editor.semanticHighlighting.enabled": false,
-    "editor.rulers": [100],
+    "editor.rulers": [
+        100
+    ],
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
             "textMateRules": [
@@ -38,6 +41,16 @@
     ],
     "errorLens.delay": 3000,
     "cSpell.userWords": [
-        "nestjs"
-    ]
+        "agreon",
+        "Agreon",
+        "dayjs",
+        "Huth",
+        "Metacritic",
+        "nestjs",
+        "nintendo",
+        "playstation",
+        "Sendgrid",
+        "trademe"
+    ],
+    "git.mergeEditor": false
 }
